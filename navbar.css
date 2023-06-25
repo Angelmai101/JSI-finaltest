@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+}
+
+.navbar-brand img {
+  display: flex;
+  align-items: center;
+  height: 45px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-family: "Great Vibes", cursive;
+  font-size: 30px;
+  color: #60100b;
+}
+
+.navbar-links {
+  display: flex;
+  font-size: 15px;
+  gap: 50px;
+}
+
+.navbar-links a {
+  color: #e87795;
+}
+
+.navbar-links a:hover {
+  color: #1d2259;
+}
+
+.form-inline {
+  gap: 30px;
+}
+
+.form-inline button {
+  color: #e87795;
+  border-color: #1d2259;
+}
+
+.form-inline button:hover {
+  color: #1d2259;
+  border-color: #e87795;
+  background-color: rgb(173, 165, 173);
+}
