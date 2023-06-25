@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Fastrenmai</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a class="navbar-brand" href="#">
+        <img
+          src="./assets/images/logoo.png"
+          class="d-inline-block align-top"
+          alt=""
+        />
+        Fastrenmai
+      </a>
+      <div class="navbar-links">
+        <a class="nav-link" href="#"
+          >Home <span class="sr-only">(current)</span></a
+        >
+        <a class="nav-link" href="#">Women</a>
+        <a class="nav-link" href="#">Men</a>
+        <a class="nav-link" href="#">Kids</a>
+        <a class="nav-link" href="#">About us</a>
+      </div>
+      <div>
+        <form class="form-inline">
+          <button class="btn btn-outline-success" type="button">Login</button>
+          <button class="btn btn-outline-success" type="button">
+            Register
+          </button>
+        </form>
+      </div>
+    </nav>
+    <div>
+      <div class="carousel">
+        <ul class="slides">
+          <input type="radio" name="radio-buttons" id="img-1" checked />
+          <li class="slide-container">
+            <div class="slide-image">
+              <img
+                src="https://elise.vn/media/catalog/product/cache/bb52e54e5ec1828d48ae8bf7c98f9f69/f/s/fs2303192diwopt.jpg"
+                style="object-fit: none"
+              />
+              <div class="carousel-caption">
+                <h5>Black Cat</h5>
+              </div>
+            </div>
+            <div class="carousel-controls">
+              <label for="img-3" class="prev-slide">
+                <span>&lsaquo;</span>
+              </label>
+              <label for="img-2" class="next-slide">
+                <span>&rsaquo;</span>
+              </label>
+            </div>
+          </li>
+          <input type="radio" name="radio-buttons" id="img-2" />
+          <li class="slide-container">
+            <div class="slide-image">
+              <img
+                src="https://domf5oio6qrcr.cloudfront.net/medialibrary/10992/b8b237ee-7cfe-4eab-b79b-dac389707899.jpg"
+                style="object-fit: cover"
+              />
+            </div>
+            <div class="carousel-controls">
+              <label for="img-1" class="prev-slide">
+                <span>&lsaquo;</span>
+              </label>
+              <label for="img-3" class="next-slide">
+                <span>&rsaquo;</span>
+              </label>
+            </div>
+          </li>
+          <input type="radio" name="radio-buttons" id="img-3" />
+          <li class="slide-container">
+            <div class="slide-image">
+              <img
+                src="https://media.gq-magazine.co.uk/photos/5d13ac6cb6fee93be9c9fffc/master/pass/milanmensfw19d1-1460-hp.jpg"
+                style="object-fit: cover; object-position: top"
+              />
+            </div>
+            <div class="carousel-controls">
+              <label for="img-2" class="prev-slide">
+                <span>&lsaquo;</span>
+              </label>
+              <label for="img-1" class="next-slide">
+                <span>&rsaquo;</span>
+              </label>
+            </div>
+          </li>
+          <div class="carousel-dots">
+            <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+            <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+            <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
