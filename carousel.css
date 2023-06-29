@@ -42,20 +42,51 @@ ul.slides input {
   background-size: cover;
   background-position: center;
 }
-.slide-image h1 {
-  color: white;
-  padding: 24px;
-  text-align: right;
-  text-shadow: 0px 0px 10px black;
-}
+
 .slide-image#slide-1 {
   background-image: url("https://elise.vn/media/catalog/product/cache/bb52e54e5ec1828d48ae8bf7c98f9f69/f/s/fs2303192diwopt.jpg");
 }
-.slide-image#slide-2 {
-  background-image: url("https://content.r9cdn.net/rimg/dimg/db/02/06b291e8-city-14912-171317ad83a.jpg?width=1750&height=1000&xhint=3040&yhint=2553&crop=true");
+
+.slide-image#slide-1 h1 {
+  color: #021451;
+  text-align: right;
+  text-shadow: 0px 0px 10px rgb(255, 255, 255);
+  font-size: 36px;
+  font-family: EB Garamond;
+  width: 486px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin-left: 930px;
+  padding: 25px;
 }
+.slide-image#slide-2 {
+  background-image: url("https://domf5oio6qrcr.cloudfront.net/medialibrary/10992/b8b237ee-7cfe-4eab-b79b-dac389707899.jpg");
+}
+
+.slide-image#slide-2 h1 {
+  color: #4a2636;
+  text-align: center;
+  text-shadow: 0px 0px 10px rgb(255, 246, 177);
+  font-size: 36px;
+  font-family: EB Garamond;
+  margin-top: 500px;
+}
+
 .slide-image#slide-3 {
-  background-image: url("https://speakzeasy.files.wordpress.com/2015/05/twa_blogpic_timisoara-4415.jpg");
+  background-image: url("https://media.gq-magazine.co.uk/photos/5d13ac6cb6fee93be9c9fffc/master/pass/milanmensfw19d1-1460-hp.jpg");
+}
+
+.slide-image#slide-3 h1 {
+  text-align: right;
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  margin-left: 930px;
+  margin-top: 370px;
+  font-family: EB Garamond;
+  color: #1b0929;
+  text-shadow: 0px 0px 10px rgb(255, 255, 255);
 }
 
 .slide-image img {
