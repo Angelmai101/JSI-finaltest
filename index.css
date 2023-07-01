@@ -37,7 +37,47 @@
   font-family: Meera Inimai;
 }
 
-.box {
-  margin-top: 170px;
+.box h1 {
+  text-align: center;
+  margin-top: 30px;
   font-family: "Abril Fatface";
+}
+
+.row {
+  gap: 200px;
+  margin-left: 50px;
+  background-color: transparent;
+}
+
+.card-img-top1 {
+  height: 300px;
+  object-fit: cover;
+  object-position: left;
+  transition: transform 0.5s;
+}
+
+.card-img-top1:hover {
+  transform: scale(1.1);
+}
+
+.card-img-top2 {
+  height: 300px;
+  object-fit: cover;
+  object-position: bottom;
+  transition: transform 0.5s;
+}
+
+.card-img-top2:hover {
+  transform: scale(1.1);
+}
+
+.card-img-top3 {
+  height: 300px;
+  object-fit: cover;
+  object-position: left;
+  transition: transform 0.5s;
+}
+
+.card-img-top3:hover {
+  transform: scale(1.1);
 }
