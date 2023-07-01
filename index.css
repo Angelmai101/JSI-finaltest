@@ -1,3 +1,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 @import "carousel.css";
 @import "navbar.css";
+
+.container {
+  width: 850px;
+  text-align: center;
+  margin-top: 30px;
+  background-color: #e7f5ff;
+  padding-top: 15px;
+  border-radius: 20px;
+  height: 200px;
+}
+
+.container-title h1 {
+  color: #000;
+  font-size: 30px;
+  font-family: "URW Chancery L", cursive;
+  line-height: normal;
+}
+
+.word1 {
+  width: 430px;
+  float: left;
+  text-align: left;
+  font-size: 20px;
+  padding: 20px;
+  font-family: Meera Inimai;
+}
+
+.word2 {
+  width: 270px;
+  float: right;
+  text-align: right;
+  font-size: 20px;
+  padding: 20px;
+  font-family: Meera Inimai;
+}
+
+.box {
+  margin-top: 170px;
+  font-family: "Abril Fatface";
+}
