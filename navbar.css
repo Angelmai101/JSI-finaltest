@@ -1,5 +1,6 @@
 .navbar {
   display: flex;
+  background-color: aliceblue;
 }
 
 .navbar-brand img {
@@ -37,10 +38,12 @@
 .form-inline button {
   color: #e87795;
   border-color: #1d2259;
+  transition: 1s;
 }
 
 .form-inline button:hover {
   color: #1d2259;
   border-color: #e87795;
   background-color: rgb(173, 165, 173);
+  border-radius: 10px;
 }
