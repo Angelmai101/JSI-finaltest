@@ -100,6 +100,12 @@
   right: 0;
 }
 
+.video iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .video-body {
   text-align: center;
   margin-top: 30px;
