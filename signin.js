@@ -35,10 +35,12 @@ Signin.addEventListener("submit", () => {
     .signInWithEmailAndPassword(email, password)
     .then((userCredential) => {
       console.log("Login successful");
+      var user = userCredential.user;
+
+      localStorage.setItem("currentusers", JSON.stringify(user));
 
       window.location.href = "index.html";
       // Signed in
-      var user = userCredential.user;
       // ...
     })
     .catch((error) => {

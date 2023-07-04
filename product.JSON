@@ -1,0 +1,50 @@
+[
+  {
+    "img": "./assets/images/Dresses.png",
+    "imghover": "./assets/images/Dresses2.png",
+    "title": "Sweet Candy design",
+    "detail1": "Season: Winter",
+    "detail2": "Material: Wool",
+    "category": ["Feature", "Women"]
+  },
+  {
+    "img": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F04%2Feb%2F04eb591cd630c5be950478927900453f4c4d0014.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/fullscreen]",
+    "imghover": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F90%2Fc8%2F90c87bab23761d0c8f74aa11c10679fcd6b7832c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/fullscreen]",
+    "title": "Ruffle-trimmed Tulle Dress",
+    "detail1": "Season: Spring and Summer",
+    "detail2": "Material: Polyester 100%",
+    "category": ["Feature", "Kids"]
+  },
+  {
+    "img": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc6%2F30%2Fc63065fa2ca7f55530ab86d3351092c689d7aff6.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+    "imghover": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F55%2F06%2F5506e52e7d7435a810072a9c2fd288c6090476f5.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+    "title": "Casual Fit",
+    "detail1": "Season: Any season",
+    "detail2": "Material: Cotton",
+    "category": ["Feature", "Men"]
+  },
+  {
+    "img": "https://image.uniqlo.com/UQ/ST3/vn/imagesgoods/458183/item/vngoods_03_458183.jpg?width=750",
+    "imghover": "https://image.uniqlo.com/UQ/ST3/vn/imagesgoods/458183/sub/vngoods_458183_sub7.jpg?width=750",
+    "title": "Cardigan x Jeans",
+    "detail1": "Season: Winter",
+    "detail2": "Material: Wool",
+    "category": ["Feature", "Women"]
+  },
+  {
+    "img": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F55%2F34%2F5534fe9ef58b821846a53608d438562ea0c06db2.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+    "imghover": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fe9%2F76%2Fe97646b886d4484761443c3edcf66918a4c3d1eb.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+    "title": "Summer Casual Fit",
+    "detail1": "Season: Summer",
+    "detail2": "Material: Cotton",
+    "category": ["Feature", "Women"]
+  },
+  {
+    "img": "./assets/images/beach.png",
+    "imghover": "./assets/images/beach2.png",
+    "title": "Beach Dress with Flower Pattern",
+    "detail1": "Season: Summer",
+    "detail2": "Material: ",
+    "category": ["Feature", "Women"]
+  }
+]

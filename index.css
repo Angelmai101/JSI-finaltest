@@ -7,15 +7,15 @@
   text-align: center;
   margin-top: 30px;
   background-color: #e7f5ff;
-  padding-top: 15px;
+  padding-top: 10px;
   border-radius: 20px;
-  height: 200px;
+  height: 220px;
 }
 
 .container-title h1 {
   color: #000;
-  font-size: 30px;
-  font-family: "URW Chancery L", cursive;
+  font-size: 50px;
+  font-family: "Rochester", cursive;
   line-height: normal;
 }
 
@@ -108,5 +108,62 @@
 
 .video-body {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 50px;
+}
+
+.feature {
+  margin-top: 50px;
+}
+.feature-full {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.feature-container {
+  width: 390px;
+  height: 700px;
+  border: 5px solid;
+  padding: 15px;
+  margin-top: 50px;
+}
+
+.feature-container img {
+  width: 350px;
+  height: 500px;
+  position: relative;
+  display: inline-block;
+  object-fit: cover;
+  object-position: top;
+}
+
+.feature h1 {
+  text-align: center;
+  font-family: "Josefin Slab", serif;
+}
+
+.feature-caption {
+  margin-left: 7px;
+  margin-top: 13px;
+}
+
+.feature-caption h5 {
+  width: 330px;
+  font-family: "Playfair Display", serif;
+  word-spacing: 2px;
+  font-weight: bold;
+}
+
+.feature-caption p {
+  font-family: "Comfortaa", cursive;
+  font-size: 15px;
+}
+
+.feature-caption button {
+  border-radius: 10px;
+  background-color: rgb(245, 211, 217);
+}
+
+.feature-caption button:hover {
+  background-color: rgb(209, 209, 242);
 }
