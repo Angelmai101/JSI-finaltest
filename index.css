@@ -2,14 +2,17 @@
 @import "carousel.css";
 @import "navbar.css";
 
-.container {
+.container1 {
   width: 850px;
   text-align: center;
-  margin-top: 30px;
   background-color: #e7f5ff;
   padding-top: 10px;
   border-radius: 20px;
   height: 220px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
 }
 
 .container-title h1 {
@@ -42,13 +45,34 @@
   margin-top: 80px;
   font-family: "Josefin Slab", serif;
   font-weight: bold;
+  font-size: 50px;
 }
 
-.row {
-  gap: 140px;
-  margin-left: 110px;
-  background-color: transparent;
-  margin-top: -30px;
+.card-title {
+  font-family: "Abril Fatface", cursive;
+  color: black;
+  font-weight: bold;
+  background-color: rgb(236, 217, 217);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.card-text {
+  background-color: rgb(215, 234, 236);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.card-body a {
+  background-color: rgb(111, 49, 60);
+  color: #ffffff;
+  border: 2px solid rgb(111, 49, 60);
+}
+
+.card-body a:hover {
+  background-color: rgb(186, 180, 230);
+  color: black;
+  border: 2px solid rgb(186, 180, 230);
 }
 
 .card {
@@ -90,7 +114,7 @@
   top: 0;
   right: -100%;
   position: absolute;
-  background: #988d8d1c;
+  background: #988d8d51;
   backdrop-filter: blur(5px);
   border-radius: 15px;
   transition: 2s;
@@ -100,15 +124,27 @@
   right: 0;
 }
 
+.row-text {
+  font-family: "Playfair Display", serif;
+}
+
 .video iframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.video-body {
+.video-body h1 {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 90px;
+  font-family: "Josefin Slab", serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.video p {
+  text-align: center;
+  font-size: 18px;
 }
 
 .feature {
@@ -125,7 +161,8 @@
   height: 700px;
   border: 5px solid;
   padding: 15px;
-  margin-top: 50px;
+  margin-top: 30px;
+  border-radius: 15px;
 }
 
 .feature-container img {
@@ -135,11 +172,20 @@
   display: inline-block;
   object-fit: cover;
   object-position: top;
+  border-radius: 10px;
 }
 
 .feature h1 {
   text-align: center;
+  margin-top: 80px;
   font-family: "Josefin Slab", serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.feature h5 {
+  text-align: center;
+  font-weight: light;
 }
 
 .feature-caption {
@@ -166,4 +212,144 @@
 
 .feature-caption button:hover {
   background-color: rgb(209, 209, 242);
+}
+
+.site-footer {
+  background-color: #26272b;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+  margin-top: 30px;
+}
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+}
+.site-footer hr.small {
+  margin: 20px 0;
+}
+.site-footer h6 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+.site-footer a {
+  color: #737373;
+}
+.site-footer a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+.footer-links li {
+  display: block;
+}
+.footer-links a {
+  color: #737373;
+}
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+.footer-links.inline li {
+  display: inline-block;
+}
+.site-footer .social-icons {
+  text-align: right;
+}
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+  background-color: #33353d;
+}
+.copyright-text {
+  margin: 0;
+}
+@media (max-width: 991px) {
+  .site-footer [class^="col-"] {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+  .site-footer .copyright-text,
+  .site-footer .social-icons {
+    text-align: center;
+  }
+}
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+.social-icons li.title {
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #96a2b2;
+  font-weight: 700;
+  font-size: 13px;
+}
+.social-icons a {
+  background-color: #eceeef;
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+  color: #fff;
+  background-color: #29aafe;
+}
+.social-icons.size-sm a {
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  font-size: 14px;
+}
+.social-icons a.facebook:hover {
+  background-color: #3b5998;
+}
+.social-icons a.twitter:hover {
+  background-color: #00aced;
+}
+.social-icons a.linkedin:hover {
+  background-color: #007bb6;
+}
+.social-icons a.dribbble:hover {
+  background-color: #ea4c89;
+}
+@media (max-width: 767px) {
+  .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600;
+  }
 }
