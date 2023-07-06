@@ -1,0 +1,141 @@
+@import "navbar.css";
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,800&display=swap");
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-family: "Josefin Slab", serif;
+  font-weight: light;
+  font-size: 70px;
+  color: rgb(123, 60, 60);
+}
+
+.header b {
+  color: rgb(65, 30, 30);
+}
+
+.header p {
+  font-size: 2 0px;
+  color: rgb(123, 60, 60);
+}
+
+.text {
+  float: left;
+  width: 380px;
+  margin-left: 170px;
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+
+.text h1 {
+  font-family: "Berkshire Swash", cursive;
+  font-size: 50px;
+}
+
+.text p {
+  margin-top: 20px;
+}
+
+.carousel-video {
+  float: right;
+  margin-bottom: 80px;
+}
+
+/* card */
+
+.container {
+  display: flex;
+  width: 700px;
+  height: 400px;
+  background: #fff;
+  transition: 1s;
+}
+
+.container:hover {
+  transform: scale(1.05);
+}
+
+.container .imgBx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+.container .imgBx img {
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+  margin-right: 40px;
+}
+
+.container .details {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+.container .details h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 2.4em;
+  line-height: 1em;
+  color: #444;
+}
+
+.container .details p {
+  max-width: 85%;
+  margin-left: 15%;
+  color: #333;
+  font-size: 15px;
+  margin-bottom: 36px;
+  margin-top: 30px;
+}
+
+.container .details button {
+  background: #000;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 15px 20px;
+  margin-top: 5px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 40px;
+  float: center;
+}
+
+@media (max-width: 1080px) {
+  .container {
+    height: auto;
+  }
+  .container .imgBx {
+    padding: 40px;
+    box-sizing: border-box;
+    width: 100% !important;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+  }
+  .container .imgBx img {
+    left: initial;
+    max-width: 100%;
+  }
+  .details {
+    width: 100% !important;
+    height: auto;
+    padding: 20px;
+  }
+  .container .details p {
+    margin-left: 0;
+    max-width: 100%;
+  }
+}
