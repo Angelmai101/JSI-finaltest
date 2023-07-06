@@ -159,7 +159,7 @@
 }
 .feature-container {
   width: 390px;
-  height: 700px;
+  height: 650px;
   border: 5px solid;
   padding: 15px;
   margin-top: 30px;
@@ -204,13 +204,4 @@
 .feature-caption p {
   font-family: "Comfortaa", cursive;
   font-size: 15px;
-}
-
-.feature-caption button {
-  border-radius: 10px;
-  background-color: rgb(245, 211, 217);
-}
-
-.feature-caption button:hover {
-  background-color: rgb(209, 209, 242);
 }

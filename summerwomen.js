@@ -1,4 +1,4 @@
-fetch("women.json", {
+fetch("summerwomen.json", {
   mode: "cors",
   headers: {
     "Access-Control-Allow-Origin": "*",

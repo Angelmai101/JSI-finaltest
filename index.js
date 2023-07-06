@@ -33,7 +33,6 @@ fetch("product.json", {
           </h5>
           <p>${Data[i].detail1}</p>
           <p>${Data[i].detail2}</p>
-          <button>See more</button>
         </div>
       </div>
                         `;

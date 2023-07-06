@@ -48,10 +48,10 @@
 
 .container {
   display: flex;
-  width: 700px;
   height: 400px;
   background: #fff;
   transition: 1s;
+  justify-content: space-between;
 }
 
 .container:hover {
