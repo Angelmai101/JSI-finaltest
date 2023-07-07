@@ -1,4 +1,5 @@
 @import "navbar.css";
+@import "footer.css";
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,800&display=swap");
 
 .header {
@@ -22,12 +23,15 @@
   color: rgb(123, 60, 60);
 }
 
+.top {
+  display: flex;
+  justify-content: space-between;
+  gap: 10%;
+  padding: 64px 100px;
+}
 .text {
-  float: left;
-  width: 380px;
-  margin-left: 170px;
-  margin-top: 70px;
-  margin-bottom: 80px;
+  width: 70%;
+  margin-top: 120px;
 }
 
 .text h1 {
@@ -41,12 +45,19 @@
 
 .carousel-video {
   float: right;
-  margin-bottom: 80px;
+  /* margin-bottom: 40px; */
 }
 
 /* card */
 
-.container {
+.container-full {
+  padding: 64px 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+}
+
+.card-container {
   display: flex;
   height: 400px;
   background: #fff;
@@ -54,51 +65,44 @@
   justify-content: space-between;
 }
 
-.container:hover {
+.card-container:hover {
   transform: scale(1.05);
 }
 
-.container .imgBx {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  height: 100%;
-}
-
-.container .imgBx img {
-  width: 600px;
+.card-container img {
+  width: 200px;
   height: 400px;
   object-fit: cover;
-  margin-right: 40px;
 }
 
-.container .details {
+.card-container .details {
   display: flex;
-  width: 50%;
+  width: 60%;
   height: 100%;
   box-sizing: border-box;
-  padding: 40px;
+  padding: 10px;
 }
 
-.container .details h2 {
+.card-container .details h2 {
   margin: 0;
   padding: 0;
   font-size: 2.4em;
-  line-height: 1em;
-  color: #444;
+  line-height: 1.2em;
+  color: #363636;
+  font-family: "Comfortaa", cursive;
+  font-weight: bold;
 }
 
-.container .details p {
+.card-container .details p {
   max-width: 85%;
   margin-left: 15%;
-  color: #333;
+  color: #767676;
   font-size: 15px;
   margin-bottom: 36px;
   margin-top: 30px;
 }
 
-.container .details button {
+.card-container .details button {
   background: #000;
   color: #fff;
   border: none;
@@ -114,10 +118,10 @@
 }
 
 @media (max-width: 1080px) {
-  .container {
+  .card-container {
     height: auto;
   }
-  .container .imgBx {
+  .card-container .imgBx {
     padding: 40px;
     box-sizing: border-box;
     width: 100% !important;
@@ -125,7 +129,7 @@
     text-align: center;
     overflow: hidden;
   }
-  .container .imgBx img {
+  .card-container .imgBx img {
     left: initial;
     max-width: 100%;
   }
@@ -134,8 +138,38 @@
     height: auto;
     padding: 20px;
   }
-  .container .details p {
+  .card-container .details p {
     margin-left: 0;
     max-width: 100%;
   }
+}
+
+/*img*/
+
+.middle {
+  text-align: center;
+  margin: 40px;
+  font-family: "Rowdies", cursive;
+}
+
+.main-img {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.big-img {
+  height: 600px;
+  width: 40%;
+  object-fit: cover;
+  object-position: middle;
+}
+
+.img2 {
+  height: 500px;
+  width: 70%;
+  object-fit: cover;
+  object-position: middle;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

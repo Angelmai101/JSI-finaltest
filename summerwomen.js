@@ -12,7 +12,7 @@ fetch("summerwomen.json", {
       {
         let htmlSegment = `
 
-        <div style="margin-top: 50px" class="container">
+        <div style="margin-top: 50px" class="card-container">
         <div class="imgBx">
           <img
             src="${Data[i].img}"
@@ -24,7 +24,7 @@ fetch("summerwomen.json", {
             <p>
             ${Data[i].detail}
             </p>
-            <button>Buy Now</button>
+            <button onclick="location.href = '${Data[i].link}';">Buy Now</button>
           </div>
         </div>
       </div>

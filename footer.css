@@ -1,6 +1,6 @@
 .site-footer {
   background-color: #26272b;
-  padding: 45px 0 20px;
+  padding: 45px 20px 20px 20px;
   font-size: 15px;
   line-height: 24px;
   color: #737373;
@@ -124,11 +124,11 @@
 .social-icons a.twitter:hover {
   background-color: #00aced;
 }
-.social-icons a.linkedin:hover {
-  background-color: #007bb6;
+.social-icons a.insta:hover {
+  background-color: #fff173;
 }
-.social-icons a.dribbble:hover {
-  background-color: #ea4c89;
+.social-icons a.mindx:hover {
+  background-color: #7f3b3b;
 }
 @media (max-width: 767px) {
   .social-icons li.title {

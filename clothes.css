@@ -1,0 +1,145 @@
+.right-side {
+  width: 530px;
+  height: 250px;
+  display: inline-block;
+  /* float: left; */
+  position: sticky;
+}
+
+.right-side h1 {
+  text-transform: uppercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.right-side h4 {
+  font-weight: lighter;
+  line-height: 1.5em;
+  color: #4d4d4d;
+}
+
+.right-side h3 a {
+  color: rgb(116, 52, 52);
+}
+
+.right-side h3 a:hover {
+  color: rgb(52, 86, 116);
+}
+
+.right-side h2 {
+  text-align: center;
+}
+/* --------- */
+
+.main-section {
+  width: 1300px;
+  margin: 50px auto;
+  clear: both;
+}
+.main-section:before,
+.main-section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.img {
+  width: 700px;
+  height: 500px;
+  object-fit: cover;
+}
+.left-side {
+  width: 750px;
+  display: inline-block;
+  vertical-align: top;
+  /* float: right; */
+}
+
+.left-side div + div {
+  margin-top: 50px;
+}
+
+/*read more*/
+
+.moreText {
+  display: none;
+}
+.read-more-btn {
+  padding: 15px 40px;
+  background-color: rgb(152, 170, 192);
+  color: rgb(32, 4, 4);
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-size: 15px;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 1s;
+  margin-bottom: 30px;
+}
+
+.read-more-btn:hover {
+  color: rgb(152, 170, 192);
+  background-color: rgb(32, 4, 4);
+  transform: scale(1.04);
+  box-shadow: 2px 4px #888888;
+}
+
+.text.show-more .moreText {
+  display: inline;
+}
+
+.text {
+  line-height: 1.5em;
+  color: #797979;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-pro {
+  color: #444444;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* FAQ */
+
+fieldset {
+  border: none;
+  padding: 0;
+  overflow: hidden;
+}
+
+fieldset > label input[type="radio"] {
+  display: none;
+}
+
+fieldset > label > span {
+  padding: 15px 20px;
+  display: block;
+  cursor: pointer;
+  font-weight: 900;
+  text-transform: uppercase;
+  background: #e4bcbc;
+  border-radius: 10px;
+}
+
+fieldset > label > div {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: all ease-in-out 300ms;
+  overflow: hidden;
+  padding: 10px;
+}
+
+fieldset > label input[type="radio"]:checked + div {
+  grid-template-rows: 1fr;
+  background: #b4c2d4;
+  border-radius: 10px;
+}
+
+fieldset > label > div > p {
+  overflow: hidden;
+  padding: 5px;
+  margin: 0px;
+  line-height: 1.3em;
+}

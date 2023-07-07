@@ -2,7 +2,7 @@ const currentUser = JSON.parse(localStorage.getItem("currentusers"));
 
 if (currentUser) {
   const logincontainer = document.getElementById("login-container");
-  logincontainer.innerHTML = `<h1>Welcome ${currentUser.displayName}</h1> <button>`;
+  logincontainer.innerHTML = `<h4 style="font-family: 'Marcellus', serif;">Welcome ${currentUser.displayName}</h4>`;
 }
 
 fetch("product.json", {

@@ -1,14 +1,39 @@
 [
   {
     "img": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F14%2Fd0%2F14d09f04f1f5d38969bedcbf5a25e8e93c2b60b4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
-    "title": "Summer",
-    "detail": "adfadadfdsfsa",
+    "title": "Cotton styling skirt",
+    "detail": "Calf-length skirt in lightweight woven cotton. The crossbody front body has a large lace-up on one side and a hidden buttonhole on the other. The cup is shaped at the back and the horizontal flap. This skirt is made of cotton, a soft and flexible natural fiber harvested.",
+    "link": "clothes.html",
     "category": ["Women-Collection", "Women"]
   },
   {
-    "img": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F14%2Fd0%2F14d09f04f1f5d38969bedcbf5a25e8e93c2b60b4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
-    "title": "Summer",
-    "detail": "adfadadfdsfsa",
+    "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa6%2F49%2Fa6497d44426b2a855d65dcc4ae9028c45d66d7e5.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+    "title": "Woven mini skirt",
+    "detail": "Woven mini skirt with deep V-neck and hidden zip fastening at the front. Wide, elbow-length sleeves, stretch seams at waist and seamless cross-cut skirt. No lining. This skirt is made of Polyamide, also known as nylon, is a synthetic fiber made from petroleum.",
+    "category": ["Women-Collection", "Women"]
+  },
+  {
+    "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F59%2Faf%2F59af9335f39250743644071233088ecfd8de6890.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+    "title": "Lace up slip dress",
+    "detail": "Sleeveless calf-length woven viscose dress with slim, adjustable shoulder straps, square neck, and slim upper. Hidden zipper on one side, slightly flared skirt and thin tie at the waist to help flatter the figure when wearing.",
+    "category": ["Women-Collection", "Women"]
+  },
+  {
+    "img": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F1f%2F88%2F1f880488e8fb1a2efb9be2a7156e39deaffc7c31.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+    "title": "Wrinkled dress with drawstring",
+    "detail": "Crewd jersey mini dress with slim top and slim shoulder straps. V-neck with drawstring crossed in the back and tied at the front. Ribbed seams at waist and flared skirt. This dress is a combination of nature color, white, blue, and green, along with flower pattern.",
+    "category": ["Women-Collection", "Women"]
+  },
+  {
+    "img": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fd8%2F72%2Fd8722806f01c11bf01882c89c1001cb67572ce18.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+    "title": "Balloon sleeveless backless dress",
+    "detail": "A woven short dress with a round neck and partially open back with a fine tie at the top. Balloon long sleeves are trimmed and slim at the wrists and waist. The skirt is a bit frayed. Partially lined.",
+    "category": ["Women-Collection", "Women"]
+  },
+  {
+    "img": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F89%2F0d%2F890dcdc0808869683ea00bec1a19f32008adb680.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+    "title": "Blended linen dress",
+    "detail": "Knee-length dress in linen and woven cotton with a heart-shaped cup-neck and slim, adjustable shoulder straps. The back of the dress is sewn with large pleats, the ruched seams at the waist and the flared skirt. There is a lining.",
     "category": ["Women-Collection", "Women"]
   }
 ]
