@@ -1,3 +1,5 @@
+@import "navbar.css";
+
 .right-side {
   width: 530px;
   height: 250px;
@@ -9,12 +11,18 @@
 .right-side h1 {
   text-transform: uppercase;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
 }
 
 .right-side h4 {
-  font-weight: lighter;
+  font-weight: light;
   line-height: 1.5em;
   color: #4d4d4d;
+  font-size: 15px;
+}
+
+.right-side h3 {
+  font-size: 22px;
 }
 
 .right-side h3 a {
@@ -27,12 +35,14 @@
 
 .right-side h2 {
   text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
 }
 /* --------- */
 
 .main-section {
   width: 1300px;
-  margin: 50px auto;
+  margin: 100px auto;
   clear: both;
 }
 .main-section:before,
@@ -47,6 +57,13 @@
   height: 500px;
   object-fit: cover;
 }
+
+.img-video {
+  width: 700px;
+  height: 500px;
+  object-fit: cover;
+  object-position: top;
+}
 .left-side {
   width: 750px;
   display: inline-block;
@@ -56,6 +73,25 @@
 
 .left-side div + div {
   margin-top: 50px;
+}
+
+.left-side button {
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 10px;
+  background-color: rgb(217, 217, 255);
+  color: black;
+  border: solid rgb(217, 217, 255);
+  font-size: 20px;
+  margin-top: 20px;
+  transition: 1s;
+}
+
+.left-side button:hover {
+  background-color: pink;
+  border: solid pink;
+  transform: scale(1.01);
+  box-shadow: 2px 2px #444444;
 }
 
 /*read more*/
@@ -120,7 +156,7 @@ fieldset > label > span {
   font-weight: 900;
   text-transform: uppercase;
   background: #e4bcbc;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 
 fieldset > label > div {

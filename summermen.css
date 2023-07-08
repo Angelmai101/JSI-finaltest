@@ -1,2 +1,166 @@
 @import "navbar.css";
 @import "footer.css";
+
+.header {
+  text-align: left;
+  margin-bottom: 40px;
+  margin-left: 100px;
+}
+
+.header h1 {
+  font-family: "Josefin Slab", serif;
+  font-weight: light;
+  font-size: 70px;
+  color: rgb(60, 104, 123);
+}
+
+.header b {
+  color: rgb(30, 35, 65);
+}
+
+.header p {
+  font-size: 2 0px;
+  color: rgb(60, 104, 123);
+}
+
+.top {
+  display: flex;
+  gap: 10%;
+  padding: 0px 100px;
+}
+.text {
+  float: right;
+  margin-top: 20px;
+}
+
+.text h1 {
+  font-family: "Comfortaa", cursive;
+  font-weight: bold;
+  color: rgb(30, 35, 65);
+}
+
+.text p {
+  color: rgb(60, 104, 123);
+}
+
+.top img {
+  object-fit: cover;
+  height: 300px;
+  width: 600px;
+  object-position: bottom;
+}
+
+.top1 {
+  display: flex;
+  gap: 10%;
+  padding: 0px 100px;
+}
+
+.top1 img {
+  object-fit: cover;
+  height: 200px;
+  width: 600px;
+  object-position: bottom;
+}
+
+/* card */
+.container-full {
+  padding: 64px 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+}
+
+.container-full1 {
+  padding: 64px 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+}
+
+.card-container {
+  display: flex;
+  height: 400px;
+  background: #fff;
+  transition: 1s;
+  justify-content: space-between;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
+
+.card-container img {
+  width: 200px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.card-container .details {
+  display: flex;
+  width: 60%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.card-container .details h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 2.4em;
+  line-height: 1.2em;
+  color: #363636;
+  font-family: "Comfortaa", cursive;
+  font-weight: bold;
+}
+
+.card-container .details p {
+  max-width: 85%;
+  margin-left: 15%;
+  color: #767676;
+  font-size: 15px;
+  margin-bottom: 36px;
+  margin-top: 30px;
+}
+
+.card-container .details button {
+  background: #000;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 15px 20px;
+  margin-top: 5px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 40px;
+  float: center;
+}
+
+@media (max-width: 1080px) {
+  .card-container {
+    height: auto;
+  }
+  .card-container .imgBx {
+    padding: 40px;
+    box-sizing: border-box;
+    width: 100% !important;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+  }
+  .card-container .imgBx img {
+    left: initial;
+    max-width: 100%;
+  }
+  .details {
+    width: 100% !important;
+    height: auto;
+    padding: 20px;
+  }
+  .card-container .details p {
+    margin-left: 0;
+    max-width: 100%;
+  }
+}

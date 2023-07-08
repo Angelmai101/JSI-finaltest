@@ -1,4 +1,4 @@
-fetch("summerwomen.json", {
+fetch("summer.json", {
   mode: "cors",
   headers: {
     "Access-Control-Allow-Origin": "*",
@@ -10,7 +10,8 @@ fetch("summerwomen.json", {
     let html = "";
     for (i = 0; i < Data.length; i++) {
       {
-        let htmlSegment = `
+        if (Data[i].category.indexOf("Women") != -1) {
+          let htmlSegment = `
 
         <div style="margin-top: 50px" class="card-container">
         <div class="imgBx">
@@ -30,7 +31,8 @@ fetch("summerwomen.json", {
       </div>
                           `;
 
-        html += htmlSegment;
+          html += htmlSegment;
+        }
       }
     }
 

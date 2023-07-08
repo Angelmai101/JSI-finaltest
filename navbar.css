@@ -10,11 +10,12 @@
 }
 
 .navbar-brand {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   font-family: "Hi Melody", cursive;
   font-size: 30px;
   color: #60100b;
+  font-size: 30px !important;
 }
 
 .navbar-links {

@@ -7,33 +7,80 @@
     <title>Document</title>
   </head>
   <link rel="stylesheet" href="clothes.css" />
+      <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arizonia&family=Berkshire+Swash&family=Comfortaa:wght@300&family=Dancing+Script&family=Great+Vibes&family=Hi+Melody&family=Josefin+Slab:ital,wght@0,100;0,200;0,500;1,100&family=Marcellus&family=Pacifico&family=Playfair+Display&family=Rochester&family=Rowdies:wght@300&display=swap"
+      rel="stylesheet"
+    />
+<!-- <link rel="stylesheet" href="summermen.css"> -->
   <body>
+    <nav class="navbar fixed-top">
+      <a class="navbar-brand" href="index.html">
+        <img
+          src="./assets/images/logoo.png"
+          class="d-inline-block align-top"
+          alt=""
+        />
+        Fastrenmai
+      </a>
+      <div class="navbar-links">
+        <a class="nav-link" href="index.html"
+          >Home <span class="sr-only">(current)</span></a
+        >
+        <a class="nav-link" href="women.html">Women</a>
+        <a class="nav-link" href="#">Men</a>
+        <a class="nav-link" href="#">Kids</a>
+        <a class="nav-link" href="#">About us</a>
+      </div>
+      <div id="login-container">
+        <form class="form-inline">
+          <a href="signin.html">
+            <button class="btn btn-outline-success" type="button">
+              Signin
+            </button>
+          </a>
+        </form>
+      </div>
+    </nav>
     <div>
       <div class="main-section">
         <div class="left-side">
           <div>
             <img
-              src="https://elise.vn/media/catalog/product/cache/bb52e54e5ec1828d48ae8bf7c98f9f69/f/s/fs2303192diwopt3.jpg"
+              src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F14%2Fd0%2F14d09f04f1f5d38969bedcbf5a25e8e93c2b60b4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
               alt=""
               class="img"
             />
           </div>
           <br />
           <div>
-            <img
-              src="https://elise.vn/media/catalog/product/cache/bb52e54e5ec1828d48ae8bf7c98f9f69/f/s/fs2303192diwopt.jpg"
-              alt=""
-              class="img"
-            />
+            <video class="img-video"
+            src="https://bcbolt446c5271-a.akamaihd.net/media/v1/pmp4/static/clear/5985631876001/98af422d-98f2-4084-8b5b-9a74f58c5870/568f6f66-45bc-4187-ab05-7675fa5ac897/main.mp4?akamai_token=exp=1688818932~acl=/media/v1/pmp4/static/clear/5985631876001/98af422d-98f2-4084-8b5b-9a74f58c5870/568f6f66-45bc-4187-ab05-7675fa5ac897/main.mp4*~hmac=1ffd3bfdfb190d279408f38aa6812a0fdd7702266120b0eebfba83e9e0fba68a"
+            autoplay
+            loop
+            preload
+            playsinline
+            ></video>
           </div>
-          <br />
+          <br>
           <div>
             <img
-              src="https://elise.vn/media/catalog/product/cache/bb52e54e5ec1828d48ae8bf7c98f9f69/f/s/fs2303192diwopt2.jpg"
+              src="https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fc7%2Ffc%2Fc7fc7e024576136a86462bb20e081bc45dc860c2.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
               alt=""
               class="img"
             />
           </div>
+
+          <button onclick="history.back()">Go back to the previous page</button>
+
           <br />
         </div>
         <div class="right-side">
@@ -82,14 +129,26 @@
           </label>
           <br>
           <label>
-            <span>Bar 3</span>
+            <span>3. What items will be matching with this dress? </span>
             <br>
             <input type="radio" value="bar3" name="accordion">
-            <div><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore impedit ducimus sequi quis voluptatem id aliquid quod distinctio, maiores iste eos fugiat aliquam minima sed? Numquam tempora, quaerat illo error deserunt ad, possimus repudiandae tempore corporis eaque magnam consequuntur nisi?</p></div>
+            <div><p>This dress is giving off the beachy vibe which it can be mixed and matched with blue shade accessories like hair band, bracelet, and necklace. OR this dress could also go well with a handbag that has a light shade of yellow or pink, as well as adding with a sunglasses, showing a luxurious vibe. </p></div>
+          </label>
+          <br>
+          <label>
+            <span>4. What is chiffon material?</span>
+            <br>
+            <input type="radio" value="bar3" name="accordion">
+            <div><p>Chiffon is a weaving process that produces a lightweight, plain weave fabric with a slight shine. The chiffon weave results in small puckers that make the fabric a little rough to the touch. These puckers are created through the use of s-twist and z-twist crepe yarns, which are twisted counter-clockwise and clockwise respectively. Crepe yarns are also twisted much tighter than standard yarns. The yarns are then woven in a plain weave, which means a single weft thread alternates over and under a single warp thread.</p></div>
           </label>
         </fieldset>
         </div>
       </div>
     </div>
     <script src="clothes.js"></script>
+    <script
+    src="https://kit.fontawesome.com/3ae7181c66.js"
+    crossorigin="anonymous"
+  ></script>
+    <!-- <script src="summerwomen.js"></script> -->
 </html>

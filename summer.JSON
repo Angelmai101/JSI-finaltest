@@ -35,5 +35,41 @@
     "title": "Blended linen dress",
     "detail": "Knee-length dress in linen and woven cotton with a heart-shaped cup-neck and slim, adjustable shoulder straps. The back of the dress is sewn with large pleats, the ruched seams at the waist and the flared skirt. There is a lining.",
     "category": ["Women-Collection", "Women"]
+  },
+  {
+    "img": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fd1%2Fad%2Fd1ade0d11590f94b147926bfda64f42fae71cd6d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+    "title": "Beige Shorts x Brown T-Shirt",
+    "detail": "Regular-fit shorts in a woven cotton. Concealed drawstring and covered elastic at waistband, side pockets, and welt back pockets with button. Cotton and linen blends combine the softness of cotton with the sturdiness of linen, creating a textured fabric.",
+    "category": ["Men-Collection", "Men"]
+  },
+  {
+    "img": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F7b%2F37%2F7b376176aa5f77ba3461048b7aded33599567b87.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+    "title": "Khaki x Polo Shirt",
+    "detail": "Slim-fit polo shirt in waffled, cotton-blend jersey. Ribbed collar, button placket, and short sleeves. Straight-cut hem with small slit at sides. This polo shirt is made of 51% of cotton and 49% of polyester.",
+    "category": ["Men-Collection", "Men"]
+  },
+  {
+    "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F5d%2F90%2F5d9056521b883156310c37e38e8ea46a2aacfb3b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+    "title": "White short x Beige T-shirt",
+    "detail": "The overall ensemble exudes a sense of youthful energy and a playful summer vibe. It is an excellent choice for those who want to make a fashionable statement while staying comfortable and trendy. Can be styling with a cap and sandal.",
+    "category": ["Men-Collection", "Men"]
+  },
+  {
+    "img": "https://image.uniqlo.com/UQ/ST3/eu/imagesgoods/455358/item/eugoods_69_455358.jpg?width=1083&impolicy=quality_60&imformat=chrome",
+    "title": "Tank top x grey pants",
+    "detail": "A ribbed tank top with a smooth feel and comfortable fit plus DRY technology. Simple and versatile. Material with a casual texture featuring DRY technology. Ribbed fabric creates a flattering fit. Great for a variety of situations from active sports to vacation wear.",
+    "category": ["Men-Collection", "Men"]
+  },
+  {
+    "img": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F15%2F88%2F15885d824481bcbea15380a22f27977dc72e893c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+    "title": "Beach short x black T-shirt",
+    "detail": "The beach shorts, with their comfortable and lightweight fabric, provide the perfect balance between comfort and functionality. Paired with a black t-shirt, allowing you to effortlessly transition from a beachside hangout to a beachfront café.",
+    "category": ["Beach", "Men"]
+  },
+  {
+    "img": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fac%2Fe7%2Face701af335e07016eaed3ef66dfdc815f4556e5.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+    "title": "Beach short x fabric shirt",
+    "detail": "The combination of a beach short and a fabric shirt creates a stylish and comfortable outfit for a day by the ocean. The shirt adds a touch of sophistication, making it suitable for both beachside strolls and beachfront gatherings. ",
+    "category": ["Beach", "Men"]
   }
 ]
